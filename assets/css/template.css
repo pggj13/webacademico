@@ -1,0 +1,242 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial Narrow;
+    font-size: 15px;
+    background-color: #fff;
+}
+.topo{
+    height: 100px;
+    width: 100%;
+
+}
+.topoint{
+    height: 100px;
+    line-height: 100px;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+.menu{
+    height: 40px;
+    width: 100%;
+    background-color: #333;
+}
+.menuint{
+    height: 40px;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+.menuint ul{
+    margin: 0;
+    padding: 0;
+}
+.menuint li{
+    list-style: none;
+    height: 38px;
+    line-height: 38px;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+.menuint li:hover{
+    border-bottom: 2px solid red;
+}
+.container{
+    height: 1800px;
+    width: 100%;
+    max-width: 1000px;
+    border:1px solid #DDD;
+    margin: auto;
+}
+/*BLOCO 1 DE NOTICIAS*/
+#container_noticia{
+    width: 988px;
+    margin: 5px;
+    height: 500px;
+    border:1px solid red;
+}
+#container_noticia_left{
+    float: left;
+    width: 550px;
+    background-color: #333;
+    height: 500px;
+}
+#container_noticia_left a{
+    color: white;
+    text-decoration: none;
+}
+#container_noticia_left p{
+    margin: 5px;
+    color: white;
+}
+#container_noticia_left_destaque{
+    float: left;
+    width: 540px;
+    margin: 5px;
+    background-color:#DDD;
+    height: 400px;
+}
+#container_noticia_rigth{
+    float: right;
+    width:438px;
+    height: 500px;
+    padding: 0;
+    background-color: #1b6d85;
+}
+#container_noticia_rigth_lista ul li:hover{
+    background-color: #81898b;
+}
+#container_noticia_rigth_lista ul li:hover span{
+    background-color: #39edb8;
+}
+#container_noticia_rigth_lista ul li:hover img{
+    opacity: 0.70;
+}
+#container_noticia_rigth_lista a{
+
+    text-decoration: none;
+    color:#ddd;
+}
+#container_noticia_rigth  ul li  h1{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 14px;
+    color: #99ccff;
+}
+#container_noticia_rigth  ul li  h2{
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    color: #DDD;
+}
+
+#container_noticia_rigth ul{
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+}
+#container_noticia_rigth ul span{
+    padding: 5px;
+    float: left;
+    background-color: #00cccc;
+    font-size: 50px;
+    color: white;
+    margin-right:5px;
+    text-align: center;
+    line-height: 90px;
+    height: 90px;
+}
+#container_noticia_rigth img{
+    float: left;
+    margin-right: 3px;
+}
+/*BLOCO 1 DE NOTICIAS*/
+#cursos1{
+    width: 988px;
+    margin: 5px;
+    height: 555px;
+    border:1px solid red;
+}
+
+#cursos_lista{
+
+    width: 650px;
+    background-color: #333;
+    height: 550px;
+    float: left;
+    padding:0 5px 5px 5px;
+}
+#cursos_lista img{
+    float: left;
+    margin-right: 5px;
+}
+#cursos_lista ul{
+
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+}
+#cursos_lista ul a{
+    color: white;
+    text-decoration: none;
+}
+#cursos_lista ul a p:hover{
+    color:#DDD;
+}
+#cursos_lista ul a li:hover img{
+    opacity: 0.70;
+}
+#cursos_lista ul p{
+    color: white;
+}
+.cursos_shopping{
+    width: 328px;
+    height: 556px;
+    background-color: #1b6d85;
+    float: right;
+}
+.cursos_shopping ul{
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+}
+.cursos_shopping h1{
+    font-size: 20px;
+    text-align: center;
+    padding: 0px;
+    color: white;
+}
+.cursos_shopping ul li{
+    margin-left: 5px;
+}
+.cursos_shopping ul li img{
+    float: left;
+    margin-right:5px;
+}
+.cursos_shopping ul li p{
+    color: white;
+    margin: 0 5px 0 5px;
+}
+.cursos_shopping ul li strong{
+    color: red;
+}
+.cursos_shopping ul a{
+    color: white;
+    text-decoration: none;
+}
+.cursos_shopping ul a p:hover{
+    color:#DDD;
+}
+.cursos_shopping ul a li:hover img{
+    opacity: 0.70;
+}
+.estudante{
+    width: 988px;
+    margin: 5px;
+    height: 555px;
+    border:1px solid red;
+}
+.estudante_page{
+    width: 600px;
+    background-color: blue;
+    height: 550px;
+    float: left;
+    padding:0 5px 5px 5px;
+}
+.estudante_ilustra{
+    width: 378px;
+    height: 555px;
+    float: right;
+    background-color: violet;
+}
+
+
